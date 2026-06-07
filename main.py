@@ -4,7 +4,7 @@ import time
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
     page = browser.new_page()
-    page.goto("https://x.com/home")
+    page.goto("https://reddit.com")
     
     # Scroll down to load multiple posts dynamically
     for _ in range(3):
