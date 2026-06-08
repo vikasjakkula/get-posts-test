@@ -4,10 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hip-hip vikas learned selenium</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        h2 { border-bottom: 2px solid #ff4500; padding-bottom: .5rem; }
+        .post { margin: .75rem 0; padding: .75rem; background: #f6f7f8; border-radius: 6px; list-style: none; }
+        .post a { color: #1a1a1b; text-decoration: none; font-weight: 500; }
+        .post a:hover { color: #ff4500; }
+        .count { color: #878a8c; font-size: .9rem; }
+    </style>
 </head>
 <body>
     <div class="container">
         <h2>reddit posts scapper project</h2>
+        <p class="count">Scraped 26 posts from reddit.com</p>
+        <ul class="posts">
+        <li class="post">
+            <a href="https://www.reddit.com/r/IndiaCricket/comments/1tz3gri/a_superb_innings_from_captain_shubman_gill_who/" target="_blank" rel="noopener">A superb innings from captain Shubman Gill, who scored 126 off 177 balls, including 15 fours and a six</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/anime_irl/comments/1tyzzld/anime_irl/" target="_blank" rel="noopener">anime_irl</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/TwentiesIndia/comments/1tz1hmc/food_i_cooked_as_a_man_living_alone_in_bangalore/" target="_blank" rel="noopener">Food i cooked as a Man living alone in Bangalore 🥲</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/mildlyinfuriating/comments/1tz1clj/box_of_donuts_i_just_ordered/" target="_blank" rel="noopener">Box of donuts I just ordered</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/TeenIndia/comments/1tyxzpw/why_are_girls_soooo_attractive_ughhh/" target="_blank" rel="noopener">Why are girls soooo attractive ughhh 😭💖</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/IndianStockMarket/comments/1tz32yp/longterm_investors_relax/" target="_blank" rel="noopener">Long-term investors, Relax</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/manhwa/comments/1tz3ial/sauce_gang_which_manhwa_is_this/" target="_blank" rel="noopener">[SAUCE] Gang which manhwa is this ???</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/motorcycles/comments/1tyqs8w/visors_homophobic_coating_wore_off_how_do_i/" target="_blank" rel="noopener">Visor&#x27;s homophobic coating wore off :( How do I restore it?</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/GadgetsIndia/comments/1tz3556/motorola_edge_60_fusion_motherboard_dead_in_4/" target="_blank" rel="noopener">Motorola Edge 60 Fusion motherboard dead in 4 months. Service center delays are ruining my internship.</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/india/comments/1tz0wuw/some_facts_about_cancer_cervix_vaccine_every/" target="_blank" rel="noopener">Some Facts about Cancer Cervix Vaccine, every Indian and every Parent must know</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/IndianHipHopHeads/comments/1tz3b2i/s_latest_story_within_12_hours_of_emi_spitting/" target="_blank" rel="noopener">$’s latest story within 12 hours of Emi spitting these Bars</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/actualcricketshitpost/comments/1tyzqeo/time_to_retire_keshav_maharaj/" target="_blank" rel="noopener">Time to retire Keshav Maharaj</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/AmulPagalHoChukaHai/comments/1tz524m/amul_butter_vs_garlic_herbs_buttery_spread/" target="_blank" rel="noopener">Amul butter v/s Garlic &amp; Herbs &quot;Buttery Spread&quot;</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/MadeMeSmile/comments/1tz1yff/seal_trying_to_pat_a_diver/" target="_blank" rel="noopener">Seal trying to pat a diver</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/soccercirclejerk/comments/1tz0b45/a_jerk_for_our_lsd_users/" target="_blank" rel="noopener">A Jerk for our LSD users</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/JKreacts/comments/1tz4a6j/its_2026_and_people_are_still_body_shaming_others/" target="_blank" rel="noopener">It&#x27;s 2026 and people are still body shaming others. Does this make them look cool?🚶‍♂️</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/unitedstatesofindia/comments/1tz421b/is_bhopal_metro_really_being_used_by_people/" target="_blank" rel="noopener">Is Bhopal Metro really being used by people?</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/Indiangamers/comments/1tz3esf/gaming_is_for_everyone_no_matter_what/" target="_blank" rel="noopener">Gaming is for everyone no matter what</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/bihar/comments/1tz3vgc/vaibhav_sooryavanshi_to_his_school_teachers_right/" target="_blank" rel="noopener">Vaibhav Sooryavanshi to his school teachers right now:</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/TMKOC/comments/1tz2zqr/why_nobody_appreciates_this_beauty/" target="_blank" rel="noopener">Why nobody appreciates this beauty?!?! 😍🥰✨</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/bollywood/comments/1tz3paf/manoj_pahwa_completes_30_years_in_bollywood_how/" target="_blank" rel="noopener">Manoj Pahwa completes 30 Years in Bollywood. How would you describe him as an actor? What are your favourite films, shows, or performances of his?</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/interestingasfuck/comments/1tyv20g/a_man_in_china_dislocates_his_shoulder_playing/" target="_blank" rel="noopener">A man in China dislocates his shoulder playing basketball, and a Foreigner saves the day</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/IndiaTodayLIVE/comments/1tz1l8p/delhi_shopkeeper_riyazuddin_mansoori_who_helped/" target="_blank" rel="noopener">Delhi shopkeeper Riyazuddin Mansoori, who helped save several lives during the Malviya Nagar fire by using mattresses and quilts to cushion people jumping from the burning building, says he acted out of humanity, not for recognition.</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/kolkata/comments/1tz4s24/shri_ashwini_vaishnaw_travelled_by_auto_from/" target="_blank" rel="noopener">Shri Ashwini Vaishnaw travelled by auto from Noapara Metro Station to Belghoria Expressway during his visit to Kolkata</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/AskReddit/comments/1tz22xv/whats_something_your_job_trained_you_to_notice/" target="_blank" rel="noopener">What&#x27;s something your job trained you to notice that you can&#x27;t stop noticing in your personal life?</a>
+        </li>
+        <li class="post">
+            <a href="https://www.reddit.com/r/TwentiesIndia/comments/1tyigo8/is_this_good_or_bad_for_india/" target="_blank" rel="noopener">Is this Good or Bad for India?</a>
+        </li>
+        </ul>
     </div>
 </body>
 </html>
